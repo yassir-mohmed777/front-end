@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 120vh;
+}
+
+main{
+    width: 100%;
+    height: 107vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-image: 
+    linear-gradient(0deg, rgba(45, 41, 51, 0.15), rgba(45, 41, 51, 0.15)),
+    url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/007844bc89ef5f33834ff9b4/pexels-christina-morillo-1181649.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 88.9%;
+    background-size: 120%;
+    
+}
+.p{
+    width: 60%;
+    height: 50%;
+    
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    font: 55px Arial, sans-serif;
+    font-weight:bolder;
+    
+
+}
+p{
+    text-align: center;
+    
+
+    font: 1.25rem Arial, sans-serif;
+    color: #ffffff;
+}
+
+footer{
+    width: 100%;
+    height: 13vh;
+    background-color: #333333;
+}
+.li{
+    color: #f2e9fe;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    color: #f2e9fe;
+}
