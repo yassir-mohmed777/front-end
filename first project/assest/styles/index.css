@@ -1,0 +1,73 @@
+body {
+    height: 10000px;
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+header {
+    height: 90px;
+    background-color: var(--backcoler);
+    z-index: 1000;
+}
+
+
+header img {
+    width: 25px;
+    height: 25px;
+}
+
+.right-site img {
+    margin-left: 15px;
+}
+
+.left-site img {
+    margin-right: 15px;
+}
+
+.offcanvas-body {
+    position: relative;
+}
+
+.offcanvas-body .searsh {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}
+
+/* Hwader-End */
+
+/* section-One */
+.section-One {   
+    background-color: var(--backcoler);
+}
+.carousel-item .p1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+.carousel-item h1{
+    font-size: 50px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.carousel-item .p2{
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.BorderMenu{
+    margin-top: 3rem;
+}
+.BorderMenu a{
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 3rem;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.BorderMenu a:hover{
+    color: rgba(0, 0, 0, 0.5);
+}

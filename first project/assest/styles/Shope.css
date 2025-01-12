@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+
+}
+header {
+    height: 110px;
+    background-color: #ffffff;
+    z-index: 1000;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.31);
+}
+
+
+header img {
+    width: 25px;
+    height: 25px;
+}
+
+.right-site img {
+    margin-left: 15px;
+}
+
+.left-site img {
+    margin-right: 15px;
+}
+
+.offcanvas-body {
+    position: relative;
+}
+
+.offcanvas-body .searsh {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}
+
+/* <!-- section-one Start --> */
+.Top-site{
+    letter-spacing: 1px;
+}
+.Top-site a{
+    text-decoration: none;
+    color: gray;
+}
+.Top-site a:hover{
+    text-decoration:underline;
+}
+.Top-site p span{
+    color: gray;
+}
+.sectionOne .p1{
+    color: #000000;
+    letter-spacing: 3px;
+    font-size: xx-large;
+}
+.imge .imgOne {
+    display: flex;
+    align-items: center;
+}
+.imge .imgOne img{
+    width: 8rem;
+    border-radius: 50%;
+}
+.imge .imgOne p{
+    margin-left: 25px;
+}
+/* <!-- section-one End --> */
